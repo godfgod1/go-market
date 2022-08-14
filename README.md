@@ -1,1 +1,1 @@
-border-b-[2px]
+max-m-lg
