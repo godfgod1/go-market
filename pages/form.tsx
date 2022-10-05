@@ -1,6 +1,13 @@
 import { useState } from 'react';
 import { FieldErrors, SubmitErrorHandler, useForm } from "react-hook-form";
 
+// less code 
+// better validation
+// better erros(set, clear, display) 
+// have control over input 
+// dont deal with event 
+// easier inputs 
+
 interface LoginForm {
   username: string;
   password: string;
