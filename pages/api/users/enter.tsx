@@ -62,4 +62,4 @@ console.log(req.body.email)
   });
 }
 
-export default withHandler("POST", handler);
+export default withHandler({methods: ["GET", "POST"], handler, isPrivate:false});
